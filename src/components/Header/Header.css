@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    margin-left: 60px;
+}
+
+.logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.logo h3 {
+    text-transform: capitalize;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: white;
+    margin-right: ;
+    align-self: center;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(138, 136, 135);
+}
